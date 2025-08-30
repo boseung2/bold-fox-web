@@ -1,175 +1,169 @@
 ---
 # Display name
-title: 吳健雄
+title: 정보승
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Jung Bo Seung
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Pronouns (optional)
-pronouns: she/her
+first_name: Bo Seung
+last_name: Jung
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Frontend Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: 네이버
+    url: https://www.naver.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: "mailto:boseung.dev@gmail.com"
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/boseung-dev
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/boseung-jung/
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/boseung.dev/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: 컴퓨터공학과
+    institution: 연세대학교
+    date_start: 2018-03-01
+    date_end: 2022-02-28
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      학점: 3.7/4.3
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      주요 수강과목:
+      - 자료구조와 알고리즘
+      - 웹 프로그래밍
+      - 소프트웨어 공학
+      - 데이터베이스 시스템
+      - 운영체제
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+  - position: 시니어 프론트엔드 개발자
+    company_name: 네이버
+    company_url: "https://www.naver.com/"
+    company_logo: ""
+    date_start: 2023-03-01
+    date_end: ""
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      주요 업무:
+      - React 기반 웹 서비스 개발 및 유지보수
+      - TypeScript를 활용한 타입 안전성 확보
+      - 사용자 경험 최적화 및 성능 개선
+      - 크로스 브라우저 호환성 확보
+      - 코드 리뷰 및 팀 내 기술 공유
+  - position: 프론트엔드 개발자
+    company_name: 카카오
+    company_url: "https://www.kakaocorp.com/"
+    company_logo: ""
+    date_start: 2022-03-01
+    date_end: 2023-02-28
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      주요 업무:
+      - Vue.js 기반 모바일 웹 서비스 개발
+      - RESTful API 연동 및 상태 관리
+      - 반응형 웹 디자인 구현
+      - 웹 접근성 및 SEO 최적화
+      - 프론트엔드 빌드 시스템 구축
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Frontend Skills
     items:
-      - name: Python
-        description: ''
+      - name: JavaScript
+        description: ""
+        percent: 90
+        icon: devicon/javascript
+      - name: TypeScript
+        description: ""
+        percent: 85
+        icon: devicon/typescript
+      - name: React
+        description: ""
+        percent: 90
+        icon: devicon/react
+      - name: Vue.js
+        description: ""
         percent: 80
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        icon: devicon/vuejs
+      - name: HTML/CSS
+        description: ""
+        percent: 95
+        icon: devicon/html5
+  - name: Tools & Others
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: Git
+        description: ""
+        percent: 85
+        icon: devicon/git
+      - name: Webpack
+        description: ""
+        percent: 75
+        icon: devicon/webpack
+      - name: Node.js
+        description: ""
+        percent: 70
+        icon: devicon/nodejs
 
 languages:
-  - name: English
+  - name: 한국어
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 80
+  - name: 일본어
+    percent: 40
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: 프론트엔드 개발자 전문 과정
+    url: https://www.fastcampus.co.kr/
+    date: "2021-12-15"
+    awarder: 패스트캠퍼스
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
+      JavaScript ES6+, React, Vue.js, TypeScript 등 모던 프론트엔드 기술 스택을 학습하고, 실무 프로젝트를 통해 실전 경험을 쌓았습니다. 웹 성능 최적화, 테스팅, 빌드 도구 활용법까지 포괄적으로 학습했습니다.
+  - title: AWS Certified Cloud Practitioner
+    url: https://aws.amazon.com/certification/certified-cloud-practitioner/
+    date: "2023-03-10"
+    awarder: Amazon Web Services
     icon: edx
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
+      클라우드 기초 지식과 AWS 서비스에 대한 이해를 바탕으로 자격증을 취득했습니다. 
+      주요 학습 내용:
+      - AWS 클라우드 개념 및 핵심 서비스
+      - 보안 및 규정 준수
+      - 요금 및 지원 모델
+  - title: 정보처리기사
+    url: https://www.q-net.or.kr/
+    certificate_url: https://www.q-net.or.kr/
+    date: "2021-06-18"
+    awarder: 한국산업인력공단
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      소프트웨어 개발 전반에 대한 이론적 지식과 실무 능력을 검증받았습니다. 소프트웨어 설계, 개발, 테스트, 유지보수 등의 전 과정에 대한 체계적인 이해를 바탕으로 자격증을 취득했습니다.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+안녕하세요! 저는 현재 네이버에서 시니어 프론트엔드 개발자로 근무하고 있는 정보승입니다.
+
+사용자 경험을 최우선으로 생각하며, React와 TypeScript를 활용한 모던 웹 애플리케이션 개발에 열정을 가지고 있습니다. 카카오에서의 경험을 바탕으로 대규모 서비스의 프론트엔드 아키텍처 설계와 성능 최적화에 전문성을 갖추고 있으며, 팀원들과의 협업을 통해 더 나은 제품을 만들어가는 것을 즐깁니다.
+
+새로운 기술 트렌드를 학습하고 적용하는 것을 좋아하며, 오픈소스 기여와 기술 블로그 작성을 통해 개발 커뮤니티에 기여하고 있습니다.
